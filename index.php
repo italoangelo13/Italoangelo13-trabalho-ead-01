@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Minha Banda</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    </head>
+    <body>
+        <div id="geral" class="container-fluid">
+        	<header class="row">
+        		<div class="jumbotron jumbotron-fluid col-lg-12">
+				  <div class="container">
+				    <h1 class="display-1">Minha Banda</h1>
+				    <p class="lead">Crie o site da sua banda em poucos minutos.</p>
+				  </div>
+				</div>
+        	</header>
+
+        	<div class="row">
+        		<div class="col-lg-12">
+        			<form class="form-horizontal">
+						<fieldset>
+
+						<!-- Form Name -->
+						<legend class="alert alert-success">Banda</legend>
+
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="nomebanda">Nome da Banda</label>  
+						  <div class="col-md-5">
+						  <input id="nomebanda" name="nomebanda" type="text" placeholder="Banda" class="form-control input-md">
+						  <span class="help-block">Ex: Capital Inicial</span>  
+						  </div>
+						</div>
+
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="img">Imagem</label>  
+						  <div class="col-md-5">
+						  <input id="img" name="img" type="text" placeholder="Link pra Imagem" class="form-control input-md">
+						    
+						  </div>
+						</div>
+
+
+						<!-- Textarea -->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="bio">Biografia da Banda</label>
+						  <div class="col-md-7">                     
+						    <textarea class="form-control" id="bio" name="bio"></textarea>
+						  </div>
+						</div>
+
+						</fieldset>
+
+
+						<fieldset>
+							<legend class="alert alert-success">Integrante 1</legend>
+							<!-- Text input-->
+							<div class="form-group">
+							  <label class="col-md-4 control-label" for="intNome1">Nome</label>  
+							  <div class="col-md-5">
+							  <input  name="intNome1" type="text" placeholder="Nome do Integrante" class="form-control input-md">
+							  </div>
+							</div>
+
+
+							<!-- Text input-->
+							<div class="form-group">
+							  <label class="col-md-4 control-label" for="intData1">Data de Nascimento</label>  
+							  <div class="col-md-2">
+							  <input  name="intData1" type="date"  class="form-control input-md">
+							  </div>
+							</div>
+
+
+							<!-- Text input-->
+							<div class="form-group">
+							  <label class="col-md-4 control-label" for="instru1">Instrumento</label>  
+							  <div class="col-md-4">
+							  <input  name="instru1" type="text" placeholder="Ex: Baixo" class="form-control input-md">
+							  </div>
+							</div>
+
+							<!-- Text input-->
+							<div class="form-group">
+							  <label class="col-md-4 control-label" for="imgInt1">Imagem</label>  
+							  <div class="col-md-5">
+							  <input id="imgInt1" name="img" type="text" placeholder="Link pra Imagem" class="form-control input-md">
+							    
+							  </div>
+							</div>
+						</fieldset>
+
+
+						<fieldset>
+							<legend class="alert alert-success">Integrante 2</legend>
+							<!-- Text input-->
+							<div class="form-group">
+							  <label class="col-md-4 control-label" for="intNome2">Nome</label>  
+							  <div class="col-md-5">
+							  <input  name="intNome2" type="text" placeholder="Nome do Integrante" class="form-control input-md">
+							  </div>
+							</div>
+
+
+							<!-- Text input-->
+							<div class="form-group">
+							  <label class="col-md-4 control-label" for="intData2">Data de Nascimento</label>  
+							  <div class="col-md-2">
+							  <input  name="intData2" type="date"  class="form-control input-md">
+							  </div>
+							</div>
+
+
+							<!-- Text input-->
+							<div class="form-group">
+							  <label class="col-md-4 control-label" for="instru2">Instrumento</label>  
+							  <div class="col-md-4">
+							  <input  name="instru2" type="text" placeholder="Ex: Baixo" class="form-control input-md">
+							  </div>
+							</div>
+
+							<!-- Text input-->
+							<div class="form-group">
+							  <label class="col-md-4 control-label" for="imgInt2">Imagem</label>  
+							  <div class="col-md-5">
+							  <input id="imgInt2" name="img" type="text" placeholder="Link pra Imagem" class="form-control input-md">
+							  </div>
+							</div>
+
+						</fieldset>
+
+
+						<fieldset>
+							<legend class="alert alert-success">Integrante 3</legend>
+							<!-- Text input-->
+							<div class="form-group">
+							  <label class="col-md-4 control-label" for="intNome3">Nome</label>  
+							  <div class="col-md-5">
+							  <input  name="intNome3" type="text" placeholder="Nome do Integrante" class="form-control input-md">
+							  </div>
+							</div>
+
+
+							<!-- Text input-->
+							<div class="form-group">
+							  <label class="col-md-4 control-label" for="intData3">Data de Nascimento</label>  
+							  <div class="col-md-2">
+							  <input  name="intData3" type="date"  class="form-control input-md">
+							  </div>
+							</div>
+
+
+							<!-- Text input-->
+							<div class="form-group">
+							  <label class="col-md-4 control-label" for="instru3">Instrumento</label>  
+							  <div class="col-md-4">
+							  <input  name="instru3" type="text" placeholder="Ex: Baixo" class="form-control input-md">
+							  </div>
+							</div>
+
+							<!-- Text input-->
+							<div class="form-group">
+							  <label class="col-md-4 control-label" for="imgInt3">Imagem</label>  
+							  <div class="col-md-5">
+							  <input id="imgInt3" name="img" type="text" placeholder="Link pra Imagem" class="form-control input-md"> 
+							  </div>
+							</div>
+
+						</fieldset>
+
+
+
+						<fieldset>
+							<legend class="alert alert-success">Configuração de Página</legend>
+							<!-- Select Basic -->
+							<div class="form-group">
+							  <label class="col-md-4 control-label" for="fundo">Cor de Fundo da página</label>
+							  <div class="col-md-4">
+							    <select id="fundo" name="fundo" class="form-control">
+							      <option value="#0D47A1">Azul</option>
+							      <option value="#FFFF00">Amarelo</option>
+							      <option value="#FFFFFF">Branco</option>
+							      <option value="#000000">Preto</option>
+							      <option value="#1B5E20">Verde</option>
+							      <option value="#F44336">Vermelho</option>
+							    </select>
+							  </div>
+							</div>
+
+							<!-- Select Basic -->
+							<div class="form-group">
+							  <label class="col-md-4 control-label" for="texto">Cor do texto da Página</label>
+							  <div class="col-md-4">
+							    <select id="texto" name="texto" class="form-control">
+							      <option value="#0D47A1">Azul</option>
+							      <option value="#FFFF00">Amarelo</option>
+							      <option value="#FFFFFF">Branco</option>
+							      <option value="#000000">Preto</option>
+							      <option value="#1B5E20">Verde</option>
+							      <option value="#F44336">Vermelho</option>
+							    </select>
+							  </div>
+							</div>
+						</fieldset>
+						</form>
+        		</div>
+        	</div>
+        </div>
+
+
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
