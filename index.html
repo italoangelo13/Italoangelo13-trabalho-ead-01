@@ -19,7 +19,7 @@
 
         	<div class="row">
         		<div class="col-lg-12">
-        			<form class="form-horizontal">
+        			<form class="form-horizontal" action="saida.php" method="POST">
 						<fieldset>
 
 						<!-- Form Name -->
@@ -38,7 +38,7 @@
 						<div class="form-group">
 						  <label class="col-md-4 control-label" for="img">Imagem</label>  
 						  <div class="col-md-5">
-						  <input id="img" name="img" type="text" placeholder="Link pra Imagem" class="form-control input-md">
+						  <input id="imgbanda" name="imgbanda" type="text" placeholder="Link pra Imagem" class="form-control input-md">
 						    
 						  </div>
 						</div>
@@ -87,7 +87,7 @@
 							<div class="form-group">
 							  <label class="col-md-4 control-label" for="imgInt1">Imagem</label>  
 							  <div class="col-md-5">
-							  <input id="imgInt1" name="img" type="text" placeholder="Link pra Imagem" class="form-control input-md">
+							  <input id="imgInt1" name="imgInt1" type="text" placeholder="Link pra Imagem" class="form-control input-md">
 							    
 							  </div>
 							</div>
@@ -126,7 +126,7 @@
 							<div class="form-group">
 							  <label class="col-md-4 control-label" for="imgInt2">Imagem</label>  
 							  <div class="col-md-5">
-							  <input id="imgInt2" name="img" type="text" placeholder="Link pra Imagem" class="form-control input-md">
+							  <input id="imgInt2" name="imgInt2" type="text" placeholder="Link pra Imagem" class="form-control input-md">
 							  </div>
 							</div>
 
@@ -165,7 +165,7 @@
 							<div class="form-group">
 							  <label class="col-md-4 control-label" for="imgInt3">Imagem</label>  
 							  <div class="col-md-5">
-							  <input id="imgInt3" name="img" type="text" placeholder="Link pra Imagem" class="form-control input-md"> 
+							  <input id="imgInt3" name="imgInt3" type="text" placeholder="Link pra Imagem" class="form-control input-md"> 
 							  </div>
 							</div>
 
@@ -205,6 +205,13 @@
 							  </div>
 							</div>
 						</fieldset>
+
+						<!-- Select Basic -->
+							<div class="form-group">
+							  <div class="col-md-4">
+							    <button type="submit" class="btn btn-success">Gerar Pagina</button>
+							  </div>
+							</div>
 						</form>
         		</div>
         	</div>
