@@ -8,14 +8,14 @@
 	$intNome1 = $_REQUEST['intNome1'];
 	$intData1 = date('d/m/Y', strtotime($_REQUEST['intData1']));
 	$instru1 = $_REQUEST['instru1'];
-	$imgInt1 = $_REQUEST['imgInt1'];
+	$imgInt1 = "user.jpg";
 
 	//Variaveis do Integrante 2
 	
 	$intNome2 = $_REQUEST['intNome2'];
 	$intData2 = date('d/m/Y', strtotime($_REQUEST['intData2']));
 	$instru2 = $_REQUEST['instru2'];
-	$imgInt2 = $_REQUEST['imgInt2'];
+	$imgInt2 = "user.jpg";
 
 	if ($intNome2 == null) {
 		$intNome2 = "Sem Integrante";
@@ -37,7 +37,7 @@
 	$intNome3 = $_REQUEST['intNome3'];
 	$intData3 = date('d/m/Y', strtotime($_REQUEST['intData3']));
 	$instru3 = $_REQUEST['instru3'];
-	$imgInt3 = $_REQUEST['imgInt3'];
+	$imgInt3 = "user.jpg";
 
 	if ($intNome3 == null) {
 		$intNome3 = "Sem Integrante";
